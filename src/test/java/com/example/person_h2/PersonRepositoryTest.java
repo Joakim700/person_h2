@@ -31,6 +31,7 @@ class PersonRepositoryTest {
         assertThat(all.get(1).getName()).isEqualTo("Bob");
     }
 
+
     @Test
     void insertAndReadBack() {
         repo.save(new Person(3, "Carol"));
